@@ -1,0 +1,19 @@
+title: UI/UX Design
+description: >-
+  UX refers to User Experience Design, while UI Design stands for User Interface
+  Design. Both elements are crucial to a product and work closely together. But
+  despite their professional relationship, they equally have different roles.
+template:
+  repo: uiux-design-template
+  name: uiux-design
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
